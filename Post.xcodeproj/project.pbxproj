@@ -13,6 +13,8 @@
 		433FB7A71A78F5F800C15AF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433FB7A61A78F5F800C15AF5 /* Images.xcassets */; };
 		433FB7AA1A78F5F800C15AF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 433FB7A81A78F5F800C15AF5 /* LaunchScreen.xib */; };
 		433FB7B61A78F5F900C15AF5 /* PostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433FB7B51A78F5F900C15AF5 /* PostTests.swift */; };
+		438F56981A7F048E00426FE4 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 438F56971A7F048E00426FE4 /* SagradaFamilia.jpeg */; };
+		438F569A1A7F083100426FE4 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 438F56991A7F083100426FE4 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		433FB7AF1A78F5F900C15AF5 /* PostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		433FB7B41A78F5F900C15AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		433FB7B51A78F5F900C15AF5 /* PostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTests.swift; sourceTree = "<group>"; };
+		438F56971A7F048E00426FE4 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		438F56991A7F083100426FE4 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		433FB79D1A78F5F800C15AF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				438F56991A7F083100426FE4 /* AlbertEinsteinStamp.jpg */,
+				438F56971A7F048E00426FE4 /* SagradaFamilia.jpeg */,
 				433FB79E1A78F5F800C15AF5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				433FB7A51A78F5F800C15AF5 /* Main.storyboard in Resources */,
+				438F56981A7F048E00426FE4 /* SagradaFamilia.jpeg in Resources */,
+				438F569A1A7F083100426FE4 /* AlbertEinsteinStamp.jpg in Resources */,
 				433FB7AA1A78F5F800C15AF5 /* LaunchScreen.xib in Resources */,
 				433FB7A71A78F5F800C15AF5 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +415,7 @@
 				433FB7BB1A78F5F900C15AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		433FB7BC1A78F5F900C15AF5 /* Build configuration list for PBXNativeTarget "PostTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				433FB7BE1A78F5F900C15AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
